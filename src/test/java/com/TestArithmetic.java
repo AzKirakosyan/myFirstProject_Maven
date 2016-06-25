@@ -1,5 +1,6 @@
 package com;
 
+
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -25,8 +26,8 @@ public class TestArithmetic  {
     @Test
     public void divTest(){
         Arithmetic a=new Arithmetic();
-        double calc= a.div(6,2);
-        Assert.assertTrue(calc ==3);
+        double calc= a.div(6,3);
+        Assert.assertTrue(calc ==2);
     }
 
 }
